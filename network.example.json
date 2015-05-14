@@ -1,0 +1,26 @@
+{
+	"devices": [{
+		"name": "Router",
+		"type": "router",
+		"model": "Motorola Router",
+		"interfaces": [{
+			"type": "eth",
+			"mac": "ab:cd:ef:01:23:45",
+			"ip": {
+				"type": "static",
+				"value": "192.168.1.1"
+			}
+		}]
+	},{
+		"name": "Super PC",
+		"type": "pc",
+		"model": "ASUS Barebone",
+		"interfaces": [{
+			"type": "eth",
+			"mac": "ab:cd:ef:01:23:45",
+			"ip": {
+				"type": "dhcp"
+			}
+		}]
+	}]
+}
